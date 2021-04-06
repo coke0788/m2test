@@ -8,6 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h1>구구단</h1>
 <%
 	//object 타입을 arrayList 타입으로 형변환 해야 함. 왜? list 안에 ArrayList가 들어있기 때문에.
 	ArrayList<String> list = (ArrayList<String>)request.getAttribute("list");
